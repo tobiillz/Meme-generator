@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 function Hero() {
 
-    const [memeImage, setMemeImage] = useState("")
+    const [memeImage, setMemeImage] = useState("../images/Logo512.png")
     function getMeme(){
         let memesArray = MemeData.data.memes;
         let randomMeme = Math.floor(Math.random()* memesArray.length)
