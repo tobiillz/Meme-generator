@@ -16,8 +16,7 @@ function Hero() {
         const box_count = memesArray[randomMeme].box_count;
 
         setMemeImage(url)
-        console.log(id)
-
+        // console.log(id)
     }
   return (
     <>
@@ -30,7 +29,6 @@ function Hero() {
             <button  onClick={getMeme} className='get-image-btn'>
                 <img src="../images/btn-img.png" alt="" />
             </button>
-            
         </div>
         <div className='img-container'>
             <img className='rendered-img' src={memeImage} alt="Api-rendered-img" />
