@@ -27,7 +27,7 @@ function Hero() {
         </div>
         <div className='btn-class'>
             <button  onClick={getMeme} className='get-image-btn'>
-                <img src="../images/btn-img.png" alt="" />
+                <img src="../images/btn-img.png" alt="get a new meme" />
             </button>
         </div>
         <div className='img-container'>
